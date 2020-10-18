@@ -30,8 +30,10 @@ p {
     color: #fff;
     background: var(--primary-color);
     cursor: pointer;
+    border-color: var(--primary-color);
     border-radius: 5px;
     font-size: 12px;
+    font-weight: bold;
     padding: 5px 12px;
 }
 
@@ -75,7 +77,8 @@ p {
 
 .rate {
     color: var(--primary-color);
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
     padding: 0 10px;
 }
 
@@ -86,5 +89,5 @@ select:focus, input:focus, button:focus {
 @media (max-width: 600px) {
     .currency input {
     width: 200px;
-}
+    }
 }
